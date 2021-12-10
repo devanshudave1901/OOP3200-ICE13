@@ -57,7 +57,7 @@ public class Main extends Application {
         gridPane.add(helloLabel,1,0);
         gridPane.add(goodByeLabel,1,1);
         gridPane.add(clickMeButton,2,2);
-        //var children = vBox.getChildren();
+
         // step 3- add layout container to scene
         Scene scene = new Scene(gridPane,WIDTH,HEIGHT);
 
